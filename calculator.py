@@ -4,10 +4,10 @@ import math
 
 border = "-" * 100  
 print(border)
-print("investment - to calculate the amount of interest you'll earn on your investment")
-print("   bond    - to calculate the amount you'll have to pay on a home loan")
+print("Investment - to calculate the amount of interest you'll earn on your investment")
+print("   Bond    - to calculate the amount you'll have to pay on a home loan")
 print(border)
-user_entry = input("Enter either 'investment' or 'bond' from the menu above to proceed : ").lower()
+user_entry = input("Enter either 'Investment' or 'Bond' from the menu above to proceed : ").lower()
 
 #Error message if user hasn't entered 'investment' or 'bond'
 if user_entry != "investment" and user_entry != "bond" :
